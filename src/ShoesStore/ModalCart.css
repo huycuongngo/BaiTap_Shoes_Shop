@@ -1,0 +1,26 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+#modalCart-btn {
+  background-color: red;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  animation: ripple 0.5s linear infinite;
+}
+
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0rem rgba(255, 0, 0, 0.2),
+                0 0 0 0.9rem rgba(255, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 0.9rem rgba(255, 0, 0, 0.2),
+                0 0 0 1rem rgba(255, 0, 0, 0);
+  }
+}
